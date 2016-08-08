@@ -15,6 +15,6 @@ A very basic example of using an AWS SNS topic.
 * Configure aws.config.json with your SNS topic ARN
 
 ## Run
-* npm install
-* npm run pub
-* npm run sub <SQS-URL>
+* ```npm install```
+* ```npm run pub```
+* ```npm run sub <SQS-URL>```
