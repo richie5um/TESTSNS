@@ -1,0 +1,20 @@
+{
+  "name": "testsns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "pub": "node src/index.js pub",
+    "sub1": "node src/index.js sub 'https://sqs.us-west-2.amazonaws.com/935977267825/RichS-SNS-SQS-1'",
+    "sub2": "node src/index.js sub 'https://sqs.us-west-2.amazonaws.com/935977267825/RichS-SNS-SQS-2'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.4.13",
+    "bluebird": "^3.4.1",
+    "lodash": "^4.14.1"
+  }
+}
